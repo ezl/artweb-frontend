@@ -12,20 +12,20 @@
         </div>
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class="text-sm">
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:underline mr-4">
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:underline mx-2">
               HOME
             </a>
-            <button type="button" class="group bg-white rounded-md inline-flex items-center font-medium text-teal-200" aria-expanded="false">
+            <button type="button" class="group bg-white rounded-md inline-flex items-center text-gray-600" aria-expanded="false">
               <span>ART</span>
-              <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <svg class="text-gray-400 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
               </svg>
             </button>
 
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:underline">
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:underline mx-2">
               FOR ARTISTS
             </a>
-            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:underline">
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:underline  mx-2">
               BLOG
             </a>
           </div>
