@@ -9,7 +9,7 @@ export default {
 
   asyncData ({ app, route, store, error }) {
     const uniqId = route.params.uniqId
-    const fullUrl = `http://localhost:8000/pics/${uniqId}`
+    const fullUrl = `${process.env.baseUrl}pics/${uniqId}`
 
     return {
       imageUrl: fullUrl
