@@ -1,13 +1,11 @@
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 p-4 md:mx-20">
     <div
-      class="max-w-sm rounded overflow-hidden shadow-lg flex justify-center items-center"
-      style="justify-self:center;"
-    >
+      class="w-full rounded overflow-hidden box-shadow flex justify-center items-center pic-container">
       <img class="w-full" :src="url" alt="Image Description">
     </div>
 
-    <div class="p-4">
+    <div>
       <div class="font-bold text-xl mb-2">
         Painting Name
       </div>
@@ -70,7 +68,7 @@
         <div class="font-bold text-md mb-2">
           Additional Details
         </div>
-        <ul style="list-style: inside;">
+        <ul class="list-inside">
           <li>Added 12/2/21</li>
           <li>Located in St. Petersburg</li>
           <li>14 day cancellation period</li>
@@ -95,15 +93,36 @@ export default {
 }
 </script>
 <style lang="css">
-.vl{
-  border-right: 1px solid #E6E6E6;
-}
-  .blue-text{
+  .vl {
+    border-right: 1px solid #E6E6E6;
+  }
+
+  .blue-text {
     color: #1039A2;
   }
 
-  .price-box{
+  .price-box {
     background-color: #CCF3CB;
     color: #038800;
+  }
+
+  .pic-container {
+    justify-self: center;
+    height: 30rem;
+  }
+
+  @media screen(sm) {
+    .pic-container {
+      height: initial;
+    }
+  }
+  .list-inside {
+    list-style: inside;
+  }
+  .box-shadow{
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
   }
 </style>
